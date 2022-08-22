@@ -1,5 +1,4 @@
 #!/bin/env bash
-version="1.2"
 dependencies=("curl" "sed" "printf")
 
 # Text colors
@@ -20,7 +19,6 @@ show_help() {
     do
         printf "%s\n" "${line}"
     done <<-EOF
-	tsnet script v.${version}
 	Usage: tsnet <command>
 	Available commands:
 	status  - check the currently logged in user
